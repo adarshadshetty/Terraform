@@ -47,6 +47,9 @@ variable "environment" {
 // Through an API providers talk to a AWS. 
 
 
+// custom global variable
+variable avail_zone {}
+
 resource "aws_vpc" "development_vpc" {
   # cidr_block = "10.0.0.0/16"
   # cidr_block = var.vpc_cidr_block    // Get the input from variable file
@@ -81,7 +84,8 @@ data "aws_vpc" "existing_vpc" {
 resource "aws_subnet" "dev-subnet-2" {     // Creating subnet in existing vpc
   vpc_id = data.aws_vpc.existing_vpc.id
   cidr_block = "172.31.48.0/20"           // Each subnet inside a VPC has to have a different set of IP addresses!
-  availability_zone = "ap-south-1a"
+  # availability_zone = "ap-south-1a"
+  availability_zone = var.avail_zone
   tags = {
     Name: "subnet-2-default"
   }
