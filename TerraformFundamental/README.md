@@ -151,3 +151,23 @@ terraform apply -var-file terraform-dev.tfvars
 Type specifies what value types are accepted
 
 ## Objects in string
+
+## AWS Credentials
+```
+export AWS_ACCESS_KEY_ID="your_access_key"
+export AWS_SECRET_ACCESS_KEY="your_secret_key"
+```
+
+## or 
+###  if you switch to another window , that are not available. To set the aws credential globally
+```
+ ls ~/.aws/credentials
+```
+
+```
+aws configure
+```
+##### Give access & secrete key.
+
+
+
