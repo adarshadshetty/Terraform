@@ -174,5 +174,7 @@ aws configure
 export TF_VAR_avail_zone="eu-central-1a"
 ```
 
+ 
+
 
 
