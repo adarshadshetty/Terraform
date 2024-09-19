@@ -45,5 +45,5 @@ ssh-keygen
 
 ## Final Result "Nginx server deployed through Docker container"
 <div align="center">
-  <img src="./public/ProjectOverview.png" alt="Logo" width="50%" height="50%">
+  <img src="./public/OutPut.png" alt="Logo" width="50%" height="50%">
 </div>
