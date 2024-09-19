@@ -26,3 +26,24 @@
 terraform state show aws_vpc.myapp-vpc
 ```
 
+## Configure the pem (key value pair)
+```
+ssh-keygen
+```
+###### public_key_location =  "C:/Users/HP/.ssh/id_rsa.pub"
+
+1. icacls "C:\Users\HP\.ssh\id_rsa.pub" /grant HP:R   (Set the execution permission in CMD Not work in GIT BASH)
+2. ssh -i ~/.ssh/id_rsa ec2-user@43.205.103.181
+3. ssh ec2-user@43.205.103.181
+
+
+
+## VPC , SubNet , SG  Created as in main.tf
+<div align="center">
+  <img src="./public/ec2vpcsubnetsgcreated.png" alt="Logo" width="50%" height="50%">
+</div>
+
+## Final Result "Nginx server deployed through Docker container"
+<div align="center">
+  <img src="./public/ProjectOverview.png" alt="Logo" width="50%" height="50%">
+</div>
