@@ -1,12 +1,12 @@
 
 # Automate creation of EKS cluster using Terraform.
 <div align="center">
-  <img src="./public/projectOverview.png" alt="Logo" width="100%" height="50%">
+  <img src="./public/projectOverview.png" alt="Logo" width="100%" height="25%">
 </div>
 
 ## Cluster Service needs to be created.
 <div align="center">
-  <img src="./public/EKS-Cluster-services.png" alt="Logo" width="100%" height="50%">
+  <img src="./public/EKS-Cluster-services.png" alt="Logo" width="100%" height="25%">
 </div>
 
 - we need something like CloudFormation template
@@ -34,25 +34,25 @@ kubectl apply
 ## Best Practices of Subnet and VPC
 
 <div align="center">
-  <img src="./public/BestPractices.png" alt="Logo" width="100%" height="50%">
+  <img src="./public/BestPractices.png" alt="Logo" width="100%" height="25%">
 </div>
 
 ## EKS cluster is created.
 <div align="center">
-  <img src="./public/eks-cluster.png" alt="Logo" width="100%" height="50%">
+  <img src="./public/eks-cluster.png" alt="Logo" width="100%" height="25%">
 </div>
 
 ## Node-Group Created.
 <div align="center">
-  <img src="./public/node-gropu.png" alt="Logo" width="100%" height="50%">
+  <img src="./public/node-gropu.png" alt="Logo" width="100%" height="25%">
 </div>
 
 ## Note of Public and Private
 <div align="center">
-  <img src="./public/publicprivatesubnet.png" alt="Logo" width="100%" height="50%">
+  <img src="./public/publicprivatesubnet.png" alt="Logo" width="100%" height="25%">
 </div>
 
 ## How values are passed from module.
 <div align="center">
-  <img src="./public/reference.png" alt="Logo" width="100%" height="50%">
+  <img src="./public/reference.png" alt="Logo" width="100%" height="25%">
 </div>
