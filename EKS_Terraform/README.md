@@ -49,7 +49,7 @@ kubectl apply
 
 ## Note of Public and Private
 <div align="center">
-  <img src="./public/publicprivatesubnet.png" alt="Logo" width="20%" height="20%">
+  <img src="./public/publicprivatesubnet.png" alt="Logo" width="30%" height="30%">
 </div>
 
 ## How values are passed from module.
