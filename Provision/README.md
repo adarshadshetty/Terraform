@@ -1,4 +1,6 @@
-## "remote-exec"  provisioner
+# 3-types of provisioner
+
+## 1."remote-exec"  provisioner
 
 -invokes script on remote resources after it is created
 
@@ -14,7 +16,7 @@ provisioner "remote-exec"{  // provisioner
 above command execute in ec2 instance
 
 
-## "file" provisioner  => Copy files or directories from local to newly created resources.
+## 2. "file" provisioner  => Copy files or directories from local to newly created resources.
 
 ```
 provisioner "file" {     // copy the file to a remote server from local machine
@@ -26,7 +28,7 @@ provisioner "file" {     // copy the file to a remote server from local machine
 source = source file or folder
 destination - absolute path
 
-## "local-exec" provisioner
+## 3. "local-exec" provisioner
 - invokes a local executable after a resource is created
 
 ```
